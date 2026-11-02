@@ -1,0 +1,20 @@
+# Secrets
+.env
+*.key
+
+# Data and generated files
+data/*.csv
+data/processed/
+output/*.png
+jars/
+pipeline.log
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
